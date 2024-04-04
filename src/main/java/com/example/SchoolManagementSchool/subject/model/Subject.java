@@ -1,12 +1,14 @@
 package com.example.SchoolManagementSchool.subject.model;
 
+import com.example.SchoolManagementSchool.student.model.Student;
+import com.example.SchoolManagementSchool.teacher.model.Teacher;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
 
 import java.util.HashSet;
+import java.util.Set;
 
 @Data
 @AllArgsConstructor
